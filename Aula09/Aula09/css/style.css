@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+h1{
+    color: red; font-size: 42px; font-weight: normal;
+}
+#banner{
+    background-image: url('/Aula09/img/spider.jpg'); height: 800px; background-size: cover; background-position: center;
+}
+h2{
+    background-color: beige;
+    color: rgba(0, 0, 255, 0.5); 
+    font-size: 30px;
+    text-align: center;
+    
+}
+*{
+    color:white;
+}
+.filme__titulo{
+    color: magenta;
+}
+img{
+    width: 300px;
+}
