@@ -119,7 +119,15 @@ background: #00669F;
   padding: 20px;
 }
 .vermaish{
-  padding: 60px;
+  position: relative;
+  text-align: center;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+color: #F3F3F3;
+padding-top: 7%;
+padding-left: 2%;
 }
 .botaoh{
 position: absolute;
@@ -131,14 +139,12 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 15px;
-
 color: #F3F3F3;
 
 background: #00669F;
 }
 footer{
-  display: block;
-align-items:flex-end;
+display: block;
 }
 .rodape{
 padding-left: 40%;
@@ -152,8 +158,4 @@ font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 color: #FFF9F9;
-}
-.card__infos{
-  display: block;
-  justify-content: center;
 }
