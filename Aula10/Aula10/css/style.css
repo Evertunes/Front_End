@@ -28,20 +28,28 @@ h1 {
   box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
 
-h2{
+.batitulo{
   font-family: Roboto;
   text-align: center;
  padding-bottom: 15px;
-
+ font-style: normal;
+ font-size:x-large;
 }
-
+.hatitulo{
+  font-family: Roboto;
+  text-align: center;
+ padding-bottom: 15px;
+ font-style: normal;
+ font-size:x-large;
+}
 main{
-  display: inline-flex;
+  display:inline-flex;
 }
 
 .containerCards{
   display:block;
   padding: 100px; 
+  justify-content: space-evenly;
 }
 
 .card {
@@ -93,7 +101,7 @@ text-align: center;
 
 }
 .botaob{
-position: absolute;
+position: absolute; 
 width: 145.34px;
 height: 54.76px;
 left: 215px;
@@ -104,17 +112,16 @@ font-weight: normal;
 font-size: 15px;
 line-height: 18px;
 text-align: center;
-vertical-align: middle;
-
 color: #F3F3F3;
-
-
 background: #00669F;
-
 }
-
+.vermais{
+  padding: 20px;
+}
+.vermaish{
+  padding: 60px;
+}
 .botaoh{
-  
 position: absolute;
 width: 145.34px;
 height: 54.76px;
@@ -124,19 +131,17 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 15px;
-line-height: 18px;
-text-align: center;
-vertical-align: middle;
 
 color: #F3F3F3;
-vertical-align:middle;
 
 background: #00669F;
 }
-
+footer{
+  display: block;
+align-items:flex-end;
+}
 .rodape{
-display: block;
-align-items: center;
+padding-left: 40%;
 height: 51px;
 text-align:left;
 background: #00669F;
@@ -147,4 +152,8 @@ font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 color: #FFF9F9;
+}
+.card__infos{
+  display: block;
+  justify-content: center;
 }
