@@ -33,34 +33,24 @@ height: 597,01px;
 top: 223,99px;
 left: 112px;
 position: absolute;
+display:flex;
  }
- .harley_card{
+ .bat_card{
      width: 374px;
      height: 597,01px;
-     top: 223,99;
-     left: 572px;
+     top: 225,11;
+     left: 112px;
      position: absolute;
      background: #F3F3F3;
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     
  }
- .backgroungh{
-     background-image: url('../img/Fundo_harley.png');
-     position: absolute;
-     width: 373.57px;
-     height: 217.81px;
-     left: 572.43;
-     top: 225.11;
-     border-radius: 16px 16px 0px 0px;
-     }
-     .bat_card{
-
-     }
 .backgroundb{
-    background-image: url('../img/Fundo_batman.png');
-    position: absolute;
-    width: 374px;
-    height: 217.81px;
-    left: 112px;
-    top: 225.11px;
-    border-radius: 16px 16px 0px 0px;
+   background-image: url('../img/Fundo_batman.png');
+   position: absolute;
+   width: 374px;
+   height: 217.81px;
+   left: 112px;
+   top: 225.11px;
+   border-radius: 16px 16px 0px 0px;
 }
