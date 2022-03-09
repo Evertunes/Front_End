@@ -104,6 +104,7 @@ font-weight: normal;
 font-size: 15px;
 line-height: 18px;
 text-align: center;
+vertical-align: middle;
 
 color: #F3F3F3;
 
@@ -119,6 +120,7 @@ width: 145.34px;
 height: 54.76px;
 left: 795px;
 top: 745.39px;
+vertical-align:middle;
 
 background: #00669F;
 }
@@ -135,6 +137,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
+vertical-align:middle;
 
 color: #FFF9F9;
 }
