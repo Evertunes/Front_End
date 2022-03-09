@@ -12,7 +12,11 @@
     align-items: center;
     padding: 20px;
 }
+li{
+    list-style-type: none;
+}
 .lista{
+   
     font-family: sans-serif, Roboto;
     color:white;
     display: flex;
