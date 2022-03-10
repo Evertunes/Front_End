@@ -7,10 +7,39 @@
     --cor-amarelo: yellow;
 }
 header{
-position: fixed;
-  top: 0;
-  left: 0;
+  position: fixed;
+  padding: 20px;
+}
+.cardsnav{
+  display: inline-flex;
+  gap: 50px;
+  justify-content:space-between;
+  align-self: center;
   width: 100%;
-  height: 90px;
-  background-color: var(--color-azul);
+  height: 213px;
+}
+.logo {
+width: 340px;
+height: 140px;
+background-image: url('/img/bandeira.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size:100%;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 36px;
+}
+.botao{
+width: 197px;
+height: 82px;
+background: #C4C4C4;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 36px;
+}
+.navegacao{
+  display: flex;
+  gap:30px;
+  padding: 27px;
+
 }
