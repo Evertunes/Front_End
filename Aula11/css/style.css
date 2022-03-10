@@ -58,9 +58,23 @@ main {
     justify-content: space-between;
     align-items: center;
     margin: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;  
+    line-height: 23px;
+    color: #222222;
+  }
+
+.pizzas{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #222222;
 }
-
-
 
 .titulo {
   color: red;
