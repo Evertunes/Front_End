@@ -29,11 +29,12 @@
 main{
     background-color: #E5E5E5;
     display: flex;
-    justify-content: space-between;
-    padding: 50px;
+    justify-content:space-between;
+    padding: 50px;  
 }
 .card2{
-display: block;    
+display: block;   
+align-items: center; 
 width: 491px;
 height: 350px;
 left: 514px;
