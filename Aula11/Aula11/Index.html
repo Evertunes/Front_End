@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link href="/css/style.css" rel="stylesheet" />
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="/css/style.css" rel="stylesheet" />
+</head>
+
+<!-- O body incorpora todo o html -->
+
+<body>
   <header>
     <nav class="cabecalho">
       <img class="logo" src="img/Logo.png" />
@@ -21,28 +26,33 @@
     </nav>
   </header>
 
-  <body>
-    <main>
-      <div class="card1">
-        <p class="envio">Envio grátis comprando 2 pizzas</p>
-      </div>
 
-      <div class="card2">
-        <div class="titulo">Cardápio de pizzas</div>
-        <div class="Top">
+  <main>
+
+    <div class="card1">
+      <p class="envio">Envio grátis comprando 2 pizzas</p>
+    </div>
+
+    <div class="card2">
+      <div class="titulo">Cardápio de pizzas</div>
+      <div class="card2__conteudo">
+
+        <div class="top">
           Top 5
-         <ol class="pizzas">
+          <ol class="pizzas">
             <li>Frango e Catupiry</li>
             <li>Hawaiana</li>
             <li>Bolonhesa</li>
             <li>Fugazzeta</li>
             <li>Calabresa</li>
           </ol>
+          </div>
+          <div class="card2__img">
+            <img src="img/PizzaFalling.jpg" />
+          </div>
         </div>
-        <img src="img/PizzaFalling.jpg" />
-      </div>
-    </main>
-  </body>
+  </main>
+
   <footer>
     <div class="rodape">
       <ul class="navrodape">
@@ -56,4 +66,6 @@
       </div>
     </div>
   </footer>
+</body>
+
 </html>
