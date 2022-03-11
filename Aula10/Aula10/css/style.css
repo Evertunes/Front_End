@@ -44,7 +44,7 @@ h1 {
 }
 main{
   display:inline-flex;
-  justify-content: space-between;
+  flex-direction: row;
 }
 
 .containerCards{
